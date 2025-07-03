@@ -1,0 +1,542 @@
+@media only screen and (max-width: 1367px) {
+    #right{
+        width: 45%;
+        margin-right: -30rem;
+    }
+    #content{
+        width: 70%;
+        left: 15%;
+    }
+    #about2{
+        margin-top: 57%;
+    }
+    #about2_container{
+        width: 90%;
+    }
+    #aboutImg {
+        width: 12%;
+    }
+    #techs{
+        width: 70%;
+    }
+    #projects{
+        margin-top: 125%;
+    }
+    #project_div{
+        width: 90%;
+        height: 37rem;
+        padding-right: 20px;
+        padding-top: 20px;
+    
+    }
+    #arrowBtn{
+        width: 98%;
+        left: 1%;
+    }
+    #contact{
+        margin-top: 179%;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    #right{
+        width: 55%;
+        margin-right: -10rem;
+
+    }
+    #left{
+        width: 25%;
+    }
+    #about2{
+        margin-top: 66%;
+    }
+    #techs{
+        width: 80%;
+    }
+    #projects{
+        margin-top: 151%;
+    }
+    #project_div{
+        width: 80%;
+        padding-left: 40px;
+        height: 38rem;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 2));
+    }
+     #contact{
+        margin-top: 223%;
+    }
+    #aboutImg {
+        width: 18%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    #right{
+        width: 55%;
+        margin-right: -10rem;
+        
+    }
+    #left{
+        width: 30%;
+    }
+    #about2{
+        margin-top: 75%;
+    }
+    #projects{
+        margin-top: 172%;
+    }
+    #project_div{
+        width: 80%;
+        padding-left: 40px;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 2));
+    }       
+    #contact{
+        margin-top: 243%;
+    }
+    
+}
+@media only screen and (max-width: 872px) {
+    #right{
+        width: 65%;
+        margin-right: -2rem;
+    }
+    #left{
+        width: 35%;
+    }
+    #content{
+        width: 80%;
+        left: 10%;
+    }
+    #about2{
+        margin-top: 85%;
+    }
+    #about2_container{
+        height: 23%;
+
+    }
+    #projects{
+        margin-top: 210%;
+    }
+    #project_div{
+        width: 90%;
+        height: 39rem;
+        padding-left: 40px;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 2));
+    }
+    #arrowBtn{
+        display: none;
+    }
+    #contact{
+        margin-top: 299%;
+    }
+    #contactMe{
+       width: 85%;
+    }
+    
+
+}
+
+@media only screen and (max-width: 764px) {
+    #right{
+        display: none;
+    }
+    .fa-bars{
+        opacity: 1;
+        margin-right: 30px;
+        font-size: 22px;
+    }
+    #left{
+        width: 45%;
+    }
+    #logo{
+        margin-left: -15px;
+    }
+    #about img{
+        width: 150%;
+        margin-left: -150px;
+    }
+    #about2{
+        margin-top: 100%;
+    };
+    #about2_container{
+        height:40rem;
+    }
+    #aboutImg{
+        display: none;
+    }
+    #about_content{
+        width: 90%;
+        overflow: hidden;
+    }
+    #aboutImg img{
+        height: 60%;
+        width: 200%;
+    }
+    #projects{
+        margin-top: 220%;
+
+    }
+    #project_div{
+        height: 38rem;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100%));
+    }
+    .project_subDiv{
+        width: 70%;
+        margin: auto;
+    }
+    #contact{
+        margin-top: 320%;
+    }
+    #socialMedia{
+        width: 40%;
+    
+    }
+
+    /* Creating Side Nav Bar */
+    .nav_bar_div{
+        display: flex;
+        flex-direction: row;
+    }
+    #sub_ul,li,a{
+        padding: 15px;
+        font-weight: 600;
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #about2{
+        margin-top: 110%;
+    };
+
+    #contactMe{
+        width: 90%;
+    }
+    #socialMedia{
+        width: 50%;
+    
+    }
+
+}
+@media only screen and (max-width: 660px) {
+    #projects{
+        border: 2px solid black;
+        margin-top: 240%;
+    }
+    #contact{
+        margin-top:350% ;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    #aboutImg{
+        display: block;
+    }
+    #left{
+        width: 55%;
+    }
+    #logo{
+        margin-left: -15px;
+    }
+    #content{
+        width: 90%;
+        left: 5%;
+    }
+    #content h1{
+        width: 90%;
+        margin-left: 15px;
+    }
+    #about img{
+        width: 210%;
+        margin-left: -18rem;
+    }
+    #about2_container{
+        display: flex;
+        flex-direction: column;
+    }
+    #aboutImg{
+        width: 25%;
+        margin-top: 20px;
+    }
+    #aboutImg img{
+        height: 100%;
+    }
+    #about_content{
+        padding-bottom: 10px;
+    }
+    #techs{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #projects{
+        margin-top: 405%;
+    }
+    #project_div{
+        height:40rem;
+    }
+    #contact{
+        margin-top: 545%;
+    }
+    #contactInputs{
+        width:95%;
+    
+    }
+    #contactInputs input{
+        padding: 10px 20px 10px 20px;
+    }
+    #contactInputs input:last-child{
+        padding: 2rem 8rem 2rem 8rem;
+    }
+    #socialMedia{
+        width: 55%;
+    
+    }
+
+ /* Creating Side Nav Bar */
+    .nav_bar_div{
+        width: 40%;
+    }
+    #about2{
+        margin-top: 42rem;
+    }
+    #about2_container{
+        height: 40rem;
+    }
+    #aboutImg img{
+        margin-left: -69px;
+    }
+    
+
+
+}
+@media only screen and (max-width: 500px) {
+    #about{
+        width: 120%;
+    }
+    #about2{
+        margin-left: 50px;
+    }
+    #aboutImg{
+        width: 20%;
+    }
+
+    #aboutImg img{
+        width: 300%;
+        margin-left: -90px;
+    }
+    #projects{
+        margin-top:470%;
+        margin-left: 50px;
+        width: 100%;
+    }
+    .project_subDiv{
+        width: 90%;
+        margin-left: 0px;
+    }
+    #contact{
+        margin-top: 650%;
+    }
+    #contactInputs input{
+        padding: 10px 5px 10px 10px;
+    }
+    #contactInputs input:last-child{
+        padding: 2rem 5rem 2rem 5rem;
+    }
+    #socialMedia{
+        width: 85%;
+    
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    #left{
+        width: 60%;
+    }
+    #logo_div{
+        width: 27%;
+    }
+    #about{
+        width: 116%;
+    }
+    #content{
+        width: 90%;
+        left: 5%;
+        height: 30rem;
+    }
+    #content h1{
+        font-size: 30px;
+        width: 85%;
+        margin-left: 20px;
+
+    }
+    #about2{
+        margin-left: 27px;
+    }
+    #about2_container{
+        height: 40rem;
+    }
+    #about img{
+        width: 260%;
+
+    }
+    #about_content{
+        margin-top: -10rem;
+        padding-bottom: 40px;
+    }
+
+    #aboutImg img{
+        border: 2px solid black;
+        width: 280%;
+        height:60%;
+        margin-left: -63px;
+    }
+    #techs{
+        width: 85%;
+    }
+    #projects{
+        margin-top:500%;
+        margin-left: 5px;
+    }
+    #project_div{
+        height:40rem;
+    }
+    .project_subDiv{
+        width: 90%;
+        margin-left: 15px;
+    }
+    #contact{
+        margin-top: 700%;
+    }
+    #contactInputs input{
+        padding: 10px 0px 10px 10px;
+        margin-bottom: 10px;
+    }
+    #contactInputs input:last-child{
+        padding: 2rem 3rem 2rem 3rem;
+        margin-top: 0px;
+    }
+    #socialMedia{
+        width: 75%;
+    
+    }
+
+
+ /* Creating Side Nav Bar */
+    .nav_bar_div{
+        width:55%;
+    }
+}
+@media only screen and (max-width: 376px) {
+    #projects{
+        margin-top:640%;
+        margin-left: 20px;
+    }
+    #project_div{
+        height:42rem;
+        width: 110%;
+        margin-left: -30px;
+    }
+    #about{
+        width: 129%;
+    }
+    #about2{
+        margin-left: 60px;
+    }
+    #aboutImg {
+        width: 25%;
+        margin-left: -20px;
+    }
+    #contact{
+        margin-top: 892%;
+    }
+    #contactInputs input{
+        padding: 10px 0px 10px 10px;
+        margin-bottom: 10px;
+    }
+    #contactInputs input:last-child{
+        padding: 2rem 3rem 2rem 2rem;
+        margin-top: 0px;
+    }
+    #socialMedia{
+        width: 95%;
+    
+    }
+}
+@media only screen and (max-width: 300px) {
+    #left{
+        width: 70%;
+        margin-left:10px;
+    }
+
+    #content{
+        width: 90%;
+        left: 5%;
+        height: 40rem;
+    }
+    #content h1{
+        font-size: 30px;
+        width: 90%;
+    }
+    #about{
+        width: 175%;
+    }
+    #about img{
+        width: 300%;
+        margin-left: -25rem;
+    }
+    #about2{
+        width: 140%;
+    }
+    #about2_container{
+        height:40rem;
+    }
+    #about_content{
+        margin-top: -4rem;
+    }
+    #aboutImg img{
+        width: 300%;
+        height: 15rem;
+        margin-left: -4.6rem;
+    }
+    #projects{
+        margin-top:740%;
+        margin-left:60px;
+    }
+    #project_div{
+        padding-left: 20px;
+        width: 130%;
+        height: 44rem;
+    }
+    .project_subDiv{
+        width: 99%;
+
+    }
+    #contact{
+        margin-top: 1050%;
+        margin-left: 20px;
+    }
+    #contactInputs input{
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 10px;
+    }
+    #contactInputs input:last-child{
+        padding: 2rem 1rem 2rem 1rem;
+        margin-top: 0px;
+    }
+
+    #socialMedia{
+        width: 100%;
+    
+    }
+
+ /* Creating Side Nav Bar */
+    .nav_bar_div{
+        width:60%;
+    }
+}
+
+
+

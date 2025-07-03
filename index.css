@@ -1,0 +1,448 @@
+body{
+    font-family: "Roboto Mono", monospace;  
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+}
+p{
+    font-size: 18px;
+}
+nav{
+    box-shadow: rgba(103, 103, 103, 0.24) 0px 3px 8px;
+    background-color: white;
+    z-index: 4;
+    opacity: 0.9;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    z-index: 6;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.6s ease-in-out;
+}
+
+#left{
+    width: 20%;
+    height: 3.5rem;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 18px;
+}
+#logo_name{
+    margin-left:10px;
+    font-family: "Roboto Mono", monospace;    
+}
+#logo_div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 120%;
+    width: 22%;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-top: -5px;
+}
+#logo{
+    width: 100%;
+    height: 100%;
+    margin-left: -10px;
+}
+#right{
+    height: 80%;
+    width:45%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 19px;
+    margin-right: -50rem;
+}
+a,li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.nav_bar_div{
+    position: fixed; 
+    right: 0;
+    margin-top: 30px;
+    overflow: hidden;
+    background-color:white;
+    height: 100vh;
+    width: 30%;
+    display: none;
+    transform: translateX(100%);
+    z-index: 2;
+    transition: all 0.8s linear;
+}
+.fa-bars{
+    opacity: 0;
+    cursor: pointer;
+}
+.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/*  Body */
+#about{
+    background-color: white;
+    width: 100%;
+    height: 37rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 4.6rem;
+    display: flex;
+    overflow: hidden;
+
+}
+#about img{
+    object-fit: cover;
+    width: 100%;
+    filter:opacity(0.6); 
+}
+
+#content{
+    width: 50%;
+    height: 30rem;
+    position: absolute;
+    left: 25%;
+    top:8%;
+    z-index: 5;
+    text-align: center;
+}
+#blur{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    z-index: -1;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+#content h1{
+    text-transform:uppercase ;
+    font-size: 40px;
+}
+#content p {
+    margin-left: 10%;
+    width: 80%;
+    font-size: 19px;
+
+}
+#content p:last-child{
+    text-transform: uppercase;
+}
+#content span{
+    position: relative;
+    color: #094c8f;
+}
+#content span::before {
+    content: "creative and functional web solutions";
+    animation: typing 8s steps(40) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+/* About 2 */
+#about2{
+    width: 100%;
+    height:auto;
+    position: absolute;
+    left: 0;
+    margin-top: 46%;
+    text-align: center;
+}
+#about2_container{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    height: 21%;
+    display: flex;
+    align-items: center;
+    gap:40px;
+    justify-content: space-around;
+}
+#about2_container div{
+    height: 90%;
+}
+#aboutImg{
+    width: 15%;
+}
+#aboutImg img{
+    width: 90%;
+    height: 100%;
+    margin-top: 5px;
+    border-radius: 10%;
+
+}
+#about_content{
+    width: 66%;
+    text-align: left;
+    font-size: 17px;
+}
+#techs{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:15px;
+    width: 60%;
+    margin: auto;
+    height: auto;
+    display: grid;
+    padding-bottom: 55px;
+    grid-template-columns: repeat(4,1fr);
+}
+#technologiesSection h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 6%;
+}
+
+.row1,.row2,.row3{
+    height: 3.6rem;
+    width: 4rem;
+    margin: auto;
+    margin-top: 50px;
+}
+.technologies img{
+    width: 100%;
+    height: 90%
+}
+#react{
+    height: 100%;
+    width: 100%;
+
+}
+#mongodb{
+    width: 100%;
+    height: 100%;
+}
+#node{
+    width: 110%;
+}
+.name{
+    opacity: 0;
+    transition: all 0.5s linear;
+    margin-top: 0;
+}
+#techs div{
+    cursor: pointer;
+}
+#techs div:hover .name{
+    opacity: 1;
+}
+
+/* Projects */
+
+#projects{
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    position:absolute;
+    margin-top: 102%;
+    left: 0;
+    right: 0;
+    padding-bottom: 45px;
+}
+
+#allProjects h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#arrowBtn{
+    position: absolute;
+    width: 92%;
+    left: 4%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    top:45%;  
+}
+#arrowBtn div{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+
+}
+#project_div{
+    width: 85%;
+    margin: auto;
+    height: 37rem;
+    gap:30px;
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3));
+    scroll-behavior: smooth;
+    flex: none;
+    overflow-x: scroll;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+#project_div::-webkit-scrollbar{
+    visibility:hidden;
+}
+.project_subDiv{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    height: 95%;
+    position: inherit;
+    width: 85%;
+    padding-bottom:10px;
+    /*background: #A2E1F5*/
+    transition: all 0.5s linear;
+}
+.project_subDiv video{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.project_subDiv h3{
+    text-transform: uppercase;
+    color: #094c8f;
+    margin-left: 20px;
+    text-decoration:underline  ;
+    width: 90%;
+}
+.project_subDiv p{
+    width: 90%;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.projectBtns{
+    display: flex;
+    margin:auto;
+    justify-content: space-evenly;
+}
+.projectBtns button{
+    padding: 5px 20px 5px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: "Roboto Mono", monospace;  ;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    
+}
+#food{
+    padding-bottom: 20px;
+}
+#ketto:hover{
+    background-color: #D7EFEF;
+}
+#ketto:hover .live{
+    background-color: teal;
+}
+.live{
+    background-color: rgb(78, 142, 142);
+}
+.github_link{
+    background-color: brown;
+}
+#omdb:hover{
+    background-color: rgb(220,220,220);
+}
+#food:hover{
+    background-color: rgb(251, 224, 117);
+}
+#to-do:hover{
+    background-color: #c4bca9;
+}
+#e-commerce{
+    overflow-y: scroll;
+}
+#e-commerce:hover{
+    background-color: rgb(239,248,255);
+}
+#e-commerce::-webkit-scrollbar{
+    visibility: hidden;
+}
+#amazon:hover{
+    background-color:rgb(252, 205, 226);
+}
+
+/* Contact */
+#contact{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 30rem;
+    margin-top: 150%;
+}
+#contact p{
+    font-size: 18px;
+}
+#contactMe{
+    width: 80%;
+    margin: auto;
+    height: 95%;
+}
+#contactInputs{
+    width: 50%;
+    display: flex;
+    flex-wrap:wrap;
+    column-gap:30px;
+
+}
+#contactInputs input{
+    border: 1px solid grey;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+}
+#contactInputs input:last-child{
+    padding: 3rem 10rem 3rem 10rem;
+    margin-top: 20px;
+}
+#contactInputs input:hover{
+    border: 2px solid grey;
+}
+#send{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 10px ;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Roboto Mono", monospace;
+}
+#socialMedia{
+    display: flex;
+    width: 30%;
+    gap:15px;
+
+}
+#socialMedia a{
+    width: 13%;
+}
+#socialMedia a img{
+    width: 100%;
+    transition: all 0.3s linear;
+
+}
+#socialMedia img:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+}
